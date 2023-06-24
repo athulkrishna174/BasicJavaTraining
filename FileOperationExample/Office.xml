@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.2" class="java.beans.XMLDecoder">
+ <object class="Office">
+  <void property="employees">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="Employee">
+      <void property="designation">
+       <string>Associate Engineer</string>
+      </void>
+      <void property="empid">
+       <int>1001</int>
+      </void>
+      <void property="name">
+       <string>Athul</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="Employee">
+      <void property="designation">
+       <string>Software Engineer</string>
+      </void>
+      <void property="empid">
+       <int>1004</int>
+      </void>
+      <void property="name">
+       <string>Binu</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
